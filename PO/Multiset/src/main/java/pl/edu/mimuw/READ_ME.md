@@ -1,0 +1,3 @@
+Miałem wątpliwości jak powinny się zachować funkcje retainAll oraz containsAll, ale zaklepałem je wg mojego uznania.
+
+Miałem ogromny problem z typem generycznym T w funkcji <T> toArray(T[] arr), ale coś tam zaklepałem i chyba działa, ale kompilator pluje bardzo dużo żółtego...

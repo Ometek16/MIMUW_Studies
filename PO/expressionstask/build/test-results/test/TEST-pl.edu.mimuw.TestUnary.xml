@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.mimuw.TestUnary" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-05-31T12:26:46" hostname="MacBook-Pro-Ometek.local" time="0.011">
+  <properties/>
+  <testcase name="[1] TestData[variable=5, expectedValue=1]" classname="pl.edu.mimuw.TestUnary" time="0.001"/>
+  <testcase name="[2] TestData[variable=0, expectedValue=0]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[3] TestData[variable=-3, expectedValue=-1]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[1] TestData[variable=5, expectedValue=-5]" classname="pl.edu.mimuw.TestUnary" time="0.001"/>
+  <testcase name="[2] TestData[variable=0, expectedValue=0]" classname="pl.edu.mimuw.TestUnary" time="0.001"/>
+  <testcase name="[3] TestData[variable=-3, expectedValue=3]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[1] TestData[variable=5, expectedValue=2]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[2] TestData[variable=0, expectedValue=0]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[3] TestData[variable=17, expectedValue=4]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[4] TestData[variable=16, expectedValue=4]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[1] TestData[variable=5, expectedValue=5]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[2] TestData[variable=0, expectedValue=0]" classname="pl.edu.mimuw.TestUnary" time="0.0"/>
+  <testcase name="[3] TestData[variable=-3, expectedValue=3]" classname="pl.edu.mimuw.TestUnary" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

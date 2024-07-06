@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.mimuw.expression.TestBinary" tests="20" skipped="0" failures="0" errors="0" timestamp="2023-06-14T20:10:38" hostname="MacBook-Pro-Ometek.local" time="0.031">
+  <properties/>
+  <testcase name="[1] TestData[constant1=5, constant2=3, expectedValue=1]" classname="pl.edu.mimuw.expression.TestBinary" time="0.015"/>
+  <testcase name="[2] TestData[constant1=6, constant2=3, expectedValue=2]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[3] TestData[constant1=-3, constant2=2, expectedValue=-1]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[4] TestData[constant1=-4, constant2=-2, expectedValue=2]" classname="pl.edu.mimuw.expression.TestBinary" time="0.001"/>
+  <testcase name="[5] TestData[constant1=10, constant2=-6, expectedValue=-1]" classname="pl.edu.mimuw.expression.TestBinary" time="0.001"/>
+  <testcase name="[1] TestData[constant1=5, constant2=3, expectedValue=2]" classname="pl.edu.mimuw.expression.TestBinary" time="0.001"/>
+  <testcase name="[2] TestData[constant1=0, constant2=0, expectedValue=0]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[3] TestData[constant1=-3, constant2=2, expectedValue=-5]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[4] TestData[constant1=-4, constant2=-2, expectedValue=-2]" classname="pl.edu.mimuw.expression.TestBinary" time="0.001"/>
+  <testcase name="[5] TestData[constant1=10, constant2=-6, expectedValue=16]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[1] TestData[constant1=5, constant2=3, expectedValue=15]" classname="pl.edu.mimuw.expression.TestBinary" time="0.001"/>
+  <testcase name="[2] TestData[constant1=0, constant2=0, expectedValue=0]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[3] TestData[constant1=-3, constant2=2, expectedValue=-6]" classname="pl.edu.mimuw.expression.TestBinary" time="0.001"/>
+  <testcase name="[4] TestData[constant1=-4, constant2=-2, expectedValue=8]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[5] TestData[constant1=10, constant2=-6, expectedValue=-60]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[1] TestData[constant1=5, constant2=3, expectedValue=8]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[2] TestData[constant1=0, constant2=0, expectedValue=0]" classname="pl.edu.mimuw.expression.TestBinary" time="0.001"/>
+  <testcase name="[3] TestData[constant1=-3, constant2=2, expectedValue=-1]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <testcase name="[4] TestData[constant1=-4, constant2=-2, expectedValue=-6]" classname="pl.edu.mimuw.expression.TestBinary" time="0.001"/>
+  <testcase name="[5] TestData[constant1=10, constant2=-6, expectedValue=4]" classname="pl.edu.mimuw.expression.TestBinary" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

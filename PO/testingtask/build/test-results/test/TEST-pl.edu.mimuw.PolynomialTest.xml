@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.mimuw.PolynomialTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2023-04-10T09:27:29" hostname="MacBook-Pro-Ometek.local" time="0.01">
+  <properties/>
+  <testcase name="shouldMultiplyTwoPolynomials()" classname="pl.edu.mimuw.PolynomialTest" time="0.001"/>
+  <testcase name="shouldMultiplyPolynomialByItself()" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="[1] TestData[coefficients=[D@7ba8c737, x=1.0, expectedValue=6.0]" classname="pl.edu.mimuw.PolynomialTest" time="0.001"/>
+  <testcase name="[2] TestData[coefficients=[D@1890516e, x=2.0, expectedValue=64.0]" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="[3] TestData[coefficients=[D@15a04efb, x=1.0, expectedValue=0.0]" classname="pl.edu.mimuw.PolynomialTest" time="0.001"/>
+  <testcase name="[4] TestData[coefficients=[D@16c069df, x=0.0, expectedValue=738219.0]" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="[5] TestData[coefficients=[D@2bec854f, x=-2.0, expectedValue=0.0]" classname="pl.edu.mimuw.PolynomialTest" time="0.001"/>
+  <testcase name="shouldCalculateIntegralOfPolynomial()" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="shouldSubstractTwoPolynomials()" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="shouldConvertPolynomialToString()" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="shouldSubstractPolynomialFromItself()" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="shouldCalculateDerivativeOfPolynomial()" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="shouldAddPolynomialToItself()" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <testcase name="shouldAddTwoPolynomials()" classname="pl.edu.mimuw.PolynomialTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

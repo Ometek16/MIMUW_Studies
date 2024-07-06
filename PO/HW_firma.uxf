@@ -1,0 +1,11 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>180</x><y>40</y><w>540</w><h>100</h></coordinates><panel_attributes>Company
+--
+- listOfEmployees : List&lt;Employee&gt;
+--
++ getListOfEmployees() : List&lt;Employee&gt;
++ setListOfEmployees(listOfEmployees : List&lt;Employee&gt;) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>190</y><w>320</w><h>80</h></coordinates><panel_attributes>/Employee/
+--
+# company : Company
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>330</y><w>340</w><h>100</h></coordinates><panel_attributes>Manager
+--
++ hireNewEmployee(employee : Employee) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>330</y><w>240</w><h>100</h></coordinates><panel_attributes>WarehouseWorker</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>330</y><w>220</w><h>100</h></coordinates><panel_attributes>DeliveryDude</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>260</y><w>170</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>150;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>260</y><w>70</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;50;70</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>260</y><w>220</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;200;70</additional_attributes></element></diagram>

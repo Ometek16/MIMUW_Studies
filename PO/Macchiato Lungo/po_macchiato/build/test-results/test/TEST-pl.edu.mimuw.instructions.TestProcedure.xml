@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.mimuw.instructions.TestProcedure" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-14T20:10:38" hostname="MacBook-Pro-Ometek.local" time="0.004">
+  <properties/>
+  <testcase name="shouldDeclareProcedureException()" classname="pl.edu.mimuw.instructions.TestProcedure" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

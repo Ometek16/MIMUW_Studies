@@ -1,0 +1,165 @@
+Projekt Macchiato Lungo~ Kuba Ornatek
+
+Streszczenie działania klas:
+	W opisie działania klas większość metod jest poprzedzona kropką. Oznacza to, że muszą one zostać wykonane na pewnym Bloku. Klasa Block() jest klasą budującą program. Przykład poprawnej konstrukcji programu w Macchiato Lungo jest widoczny w pliku Main.java oraz w plikach instructions/Test*.java.
+
+	• Program -> klasa obsługująca całe działanie programu Macchiato Lungo. Sposób uruchomienia:
+		• .execute() 		-> uruchamia program bez debuggera
+		• .executeDebug()	-> uruchamia program z debuggerem
+		  debugger obsługuje następujące polecenia:
+		  • s /liczba/	- zgodnie ze specyfikacją
+		  • d /liczba/	- zgodnie ze specyfikacją
+		  • c 			- zgodnie ze specyfikacją
+		  • e			- zgodnie ze specyfikacją
+		  • m /path/	- zgodnie ze specyfikacją
+		  • v /liczba/	- sposób wypisywania zmiennych, więcej w sekcji *Display Mode*
+		  • x			- wypisuje na ekran wszystkie instrukcje aktualnie na Deque
+
+	• Assign
+		Przypisuje nową wartość już zadeklarowanej zmiennej.
+
+		Użycie:
+			• .assign(char varName, Expression expression)
+
+		Wyjątki:
+			• "[Exeption] Variable not declared"
+			• "[Exception] Invalid variable name"
+			• Wyjątki rzucane przez Expression
+
+	• Block 
+		W bloku rozróżniane są deklaracje od instrukcji celem zachowania porządku.
+		
+		Użycie:
+			• .beginBlock()		...		.endBlock()
+			• new Block()		...		.endBlock()
+
+	• Declare
+		Deklaracja nowej zmiennej.
+
+		Użycie:
+			• .declare(char varName, Expression expression)
+		
+		Wyjątki
+			• "[Exeption] Variable already declared"
+			• "[Exception] Invalid variable name"
+			• Wyjątki rzucane przez Expression
+	
+	• ForBlock
+		Tworzy odpowiednio wiele nowych bloków zawierających instrukcje 
+		i deklaracje zmiennej varName z odpowiednim wartościowaniem
+
+		Użycie:
+			• .forBlock(char varName, Expression expression, Block block)
+
+	• IfBlock
+		If - nic specjalnego.
+
+		Użycie:
+			• .ifBlock(Expression expression1, String operation, Expression expression2, Block ifBlock, Block elseBlock)
+			• .ifBlock(Expression expression1, String operation, Expression expression2, Block ifBlock)
+
+	• Print
+		Wypisuje wartość - nic specjalnego.
+
+		Użycie:
+			• .print(Expression expression)
+
+		Wyjątki:
+			• Wyjątki rzucane przez Expression	
+
+	• DeclareProcedure
+		Tworzy nową procedurę o zadanej nazwie. Rekurencja jest obsługiwana, ale należy być ostrożnym (przykład w /test/instructions/TestRecursion.java).
+
+		Użycie:
+			• .declareProcedure(String procedureName, List<Character> arguments, Block block)
+
+		Wyjątki:
+			• "[Exception] Procedure already declared";
+			• "[Exception] Invalid procedure name";
+			• "[Exception] Repeating arguments";
+	
+	• InvokeProcedure
+		Wywołuje procedurę o zadanej nazwie. Rekurencja jest obsługiwana, ale należy być ostrożnym (przykład w /test/instructions/TestRecursion.java).
+
+		Użycie:
+			• .invokeProcedure(String procedureName, List<Expression> arguments)
+
+		Wyjątki:
+    		• "[Exception] Procedure not declared";
+    		• "[Exception] Invalid procedure name";
+    		• "[Exception] Invalid number of arguments";
+			• Wyjątki rzucane przez Expression
+
+Display Mode:
+	Został stworzony aby ładniej wypisywały się zmienne na terminal.
+	Ustawia ilość kolumn i wierszy w trakcie wypisywania d(isplay).
+
+	• terminal pełnoekranowy 7 x 4
+		• block.execute(0)		-> uruchamia program bez debuggera w trybie pełnoekranowym
+		• block.executeDebug(0)	-> uruchamia program z debuggerem w trybie pełnoekranowym
+		• v 0					-> zmienia tryb na pełnoekranowy
+	• terminal standardowy 4 x 7 (szerokość 80) [DEAFULT]
+		• block.execute(1)		-> uruchamia program bez debuggera w trybie pełnoekranowym
+		• block.executeDebug(1)	-> uruchamia program z debuggerem w trybie pełnoekranowym
+		• v 1					-> zmienia tryb na pełnoekranowy
+
+	Dodanie parametru do funkcji block.execute() powoduje jednorazowe odpalenie funkcji debuggera.
+	Ma to znaczenie tylko gdy program się wykrzaczy.
+
+Expression:
+	Projekt realizowany po części na ćwiczeniach.
+	Zmodyfikowany do obsługi Składni Macchiato.
+
+	• Constant:
+		stała liczbowa
+
+		Konstruktory:
+			• Constant.of(int varValue)
+
+	• Variable:
+		zmienna Macchiato. 'a' - 'z'
+
+		Konstruktory:
+			• Variable.named(char varName)
+
+		Wyjątki:
+			• "[Exception] Invalid variable name"
+			• "[Exception] Variable not declared"
+
+	• Addition:
+		dodawanie -> operand1 + operand2
+
+		Konstruktory:
+			• Addition.of(Expression operand1, Expression operand2)
+
+	• Substraction:
+		odejmowanie -> operand1 - operand2
+
+		Konstruktory:
+			• Substraction.of(Expression operand1, Expression operand2)
+
+	• Multiplication:
+		mnożenie -> operand1 * operand2
+
+		Konstruktory:
+			• Multiplication.of(Expression operand1, Expression operand2)
+
+	• Division:
+		dzielenie -> operand1 / operand2
+
+		Konstruktory: 
+			• Division.of(Expression operand1, Expression operand2)	
+		
+		Wyjątki:
+			• "[Exception] Cannot divide by zero"
+
+	• Modulo:
+		modulo -> operand1 ≡ operand2
+
+		Konstruktory: 
+			• Modulo.of(Expression operand1, Expression operand2)	
+		
+		Wyjątki:
+			• "[Exception] Cannot modulo by zero"
+
+

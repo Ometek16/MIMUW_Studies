@@ -1,0 +1,141 @@
+Projekt Macchiato ~ Kuba Ornatek
+
+Streszczenie działania klas:
+
+	• Program -> główna klasa obsługująca całe działanie programu Macchiato. Sposobu uruchomienia:
+		• program.run() 		-> uruchamia program bez debuggera
+		• program.runDebug()	-> uruchamia program z debuggerem
+		  debugger obsługuje następujące polecenia:
+		  • s /liczba/	- zgodnie ze specyfikacją
+		  • d /liczba/	- zgodnie ze specyfikacją
+		  • c 			- zgodnie ze specyfikacją
+		  • e			- zgodnie ze specyfikacją
+		  • m /liczba/	- sposób wypisywania zmiennych, więcej w sekcji *Display Mode*
+
+	• Assign
+		Przypisuje nową wartość już zadeklarowanej zmiennej.
+
+		Konstruktory:
+			• Assign(char varName, Expression expression)
+
+		Wyjątki:
+			• "[Exeption] Variable not declared"
+			• "[Exception] Invalid variable name"
+			• Wyjątki rzucane przez Expression
+
+	• Block 
+		W bloku rozróżniane są deklaracje od instrukcji celem zachowania porządku.
+		
+		Konstruktory:
+			• Block(Declare[] declarations, Instruction[] instructions)
+			• Block(Declare[] declarations)
+			• Block(Instruction[] instructions)
+
+	• Declare
+		Deklaracja nowej zmiennej.
+
+		Konstruktory:
+			• Declare(char varName, Expression expression)
+		
+		Wyjątki
+			• "[Exeption] Variable already declared"
+			• "[Exception] Invalid variable name"
+			• Wyjątki rzucane przez Expression
+	
+	• For
+		Tworzy odpowiednio wiele nowych bloków zawierających instrukcje 
+		i deklaracje zmiennej varName z odpowiednim wartościowaniem
+
+		Konstruktory:
+			• For(char varName, Expression expression, Instruction[] instructions)
+
+	• If
+		If - nic specjalnego.
+
+		Konstruktory:
+			• If(Expression expression1, String operation, Expression expression2, Instruction[] ifInstructions, Instruction[] elseInstructions)
+			• If(Expression expression1, String operation, Expression expression2, Instruction[] ifInstructions)
+
+	• Print
+		Wypisuje wartość - nic specjalnego.
+
+		Konstruktory:
+			• Print(Expression expression)
+
+		Wyjątki:
+			• Wyjątki rzucane przez Expression	
+
+
+Display Mode:
+	Został stworzony aby ładniej wypisywały się zmienne na terminal.
+	Ustawia ilość kolumn i wierszy w trakcie wypisywania d(isplay).
+
+	• terminal pełnoekranowy 7 x 4
+		• program.run(0)		-> uruchamia program bez debuggera w trybie pełnoekranowym
+		• program.runDebug(0)	-> uruchamia program z debuggerem w trybie pełnoekranowym
+		• m 0					-> zmienia tryb na pełnoekranowy
+	• terminal standardowy 4 x 7 (szerokość 80) [DEAFULT]
+		• program.run(1)		-> uruchamia program bez debuggera w trybie pełnoekranowym
+		• program.runDebug(1)	-> uruchamia program z debuggerem w trybie pełnoekranowym
+		• m 1					-> zmienia tryb na pełnoekranowy
+
+	Dodanie parametru do funkcji program.run() powoduje jednorazowe odpalenie funkcji debuggera.
+	Ma to znaczenie tylko gdy program się wykrzaczy.
+
+Expression:
+	Projekt realizowany po części na ćwiczeniach.
+	Zmodyfikowany do obsługi Składni Macchiato.
+
+	• Constant:
+		stała liczbowa
+
+		Konstruktory:
+			• Constant(int varValue)
+
+	• Variable:
+		zmienna Macchiato. 'a' - 'z'
+
+		Konstruktory:
+			• Variable(char varName)
+
+		Wyjątki:
+			• "[Exception] Invalid variable name"
+			• "[Exception] Variable not declared"
+
+	• Addition:
+		dodawanie -> operand1 + operand2
+
+		Konstruktory:
+			• Addition(Expression operand1, Expression operand2)
+
+	• Substraction:
+		odejmowanie -> operand1 - operand2
+
+		Konstruktory:
+			• Substraction(Expression operand1, Expression operand2)
+
+	• Multiplication:
+		mnożenie -> operand1 * operand2
+
+		Konstruktory:
+			• Multiplication(Expression operand1, Expression operand2)
+
+	• Division:
+		dzielenie -> operand1 / operand2
+
+		Konstruktory: 
+			• Division(Expression operand1, Expression operand2)	
+		
+		Wyjątki:
+			• "[Exception] Cannot divide by zero"
+
+	• Modulo:
+		modulo -> operand1 ≡ operand2
+
+		Konstruktory: 
+			• Modulo(Expression operand1, Expression operand2)	
+		
+		Wyjątki:
+			• "[Exception] Cannot modulo by zero"
+
+

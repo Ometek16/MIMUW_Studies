@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.mimuw.Przyklady0Wstep" tests="8" skipped="0" failures="1" errors="0" timestamp="2023-05-31T13:01:09" hostname="MacBook-Pro-Ometek.local" time="0.042">
+  <properties/>
+  <testcase name="strumienieSąJednorazowe()" classname="pl.edu.mimuw.Przyklady0Wstep" time="0.011">
+    <failure message="java.lang.IllegalStateException: stream has already been operated upon or closed" type="java.lang.IllegalStateException">java.lang.IllegalStateException: stream has already been operated upon or closed
+	at java.base/java.util.stream.AbstractPipeline.&lt;init&gt;(AbstractPipeline.java:203)
+	at java.base/java.util.stream.ReferencePipeline.&lt;init&gt;(ReferencePipeline.java:96)
+	at java.base/java.util.stream.ReferencePipeline$StatefulOp.&lt;init&gt;(ReferencePipeline.java:829)
+	at java.base/java.util.stream.SortedOps$OfRef.&lt;init&gt;(SortedOps.java:111)
+	at java.base/java.util.stream.SortedOps.makeRef(SortedOps.java:51)
+	at java.base/java.util.stream.ReferencePipeline.sorted(ReferencePipeline.java:557)
+	at pl.edu.mimuw.Przyklady0Wstep.strumienieSąJednorazowe(Przyklady0Wstep.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="łatwoAleNieZaŁatwo()" classname="pl.edu.mimuw.Przyklady0Wstep" time="0.011"/>
+  <testcase name="strumienieSąNawetJeszczeBardziejLeniwe()" classname="pl.edu.mimuw.Przyklady0Wstep" time="0.006"/>
+  <testcase name="równoległyAlePoKolei()" classname="pl.edu.mimuw.Przyklady0Wstep" time="0.005"/>
+  <testcase name="strumienieSąLeniwe()" classname="pl.edu.mimuw.Przyklady0Wstep" time="0.002"/>
+  <testcase name="marki200Kplus()" classname="pl.edu.mimuw.Przyklady0Wstep" time="0.001"/>
+  <testcase name="marki200KplusSorted()" classname="pl.edu.mimuw.Przyklady0Wstep" time="0.002"/>
+  <testcase name="strumienieSięŁatwoZrównolegla()" classname="pl.edu.mimuw.Przyklady0Wstep" time="0.003"/>
+  <system-out><![CDATA[
+Za pierwszym razem działa:
+Porsche
+Tesla
+Renault
+Tesla
+Tesla
+Porsche
+Tesla
+Porsche
+
+Za drugim już nie...
+
+Ale bym nie przesadzał z tym 'łatwo'...
+1000000
+
+A nawet jeszcze bardziej LENIWE:
+TERAZ:
+Filtruję Toyota Yaris, drzwi: 5, cena: 76900
+Filtruję Renault Clio, drzwi: 5, cena: 71900
+Filtruję Porsche Cayenne, drzwi: 5, cena: 428000
+Porsche
+Dlatego nie 'printujemy' w trakcie przerabiania strumieni!
+
+Zrównoleglony strumień nie traci kolejności!
+4,104
+14,114
+12,112
+11,111
+9,109
+13,113
+1,101
+2,102
+8,108
+0,100
+20,120
+6,106
+19,119
+5,105
+30,130
+7,107
+22,122
+10,110
+24,124
+23,123
+18,118
+28,128
+25,125
+17,117
+3,103
+15,115
+16,116
+26,126
+21,121
+29,129
+27,127
+A TERAZ:
+Filtruję Toyota Yaris, drzwi: 5, cena: 76900
+Filtruję Renault Clio, drzwi: 5, cena: 71900
+Filtruję Porsche Cayenne, drzwi: 5, cena: 428000
+Porsche
+Filtruję Tesla Model Y, drzwi: 5, cena: 229990
+Tesla
+Filtruję Renault Traffic, drzwi: 6, cena: 210150
+Renault
+Filtruję Tesla Model 3, drzwi: 5, cena: 219990
+Tesla
+Filtruję Tesla Model X, drzwi: 5, cena: 592990
+Tesla
+Filtruję Renault Kangoo, drzwi: 5, cena: 100737
+Filtruję Porsche Taycan, drzwi: 5, cena: 448000
+Porsche
+Filtruję Tesla Model S, drzwi: 5, cena: 553990
+Tesla
+Filtruję Toyota Aygo, drzwi: 3, cena: 63900
+Filtruję Toyota Corolla, drzwi: 4, cena: 116900
+Filtruję Hyundai Tucson, drzwi: 5, cena: 127400
+Filtruję Porsche 911 Turbo, drzwi: 5, cena: 1084000
+Porsche
+Filtruję Hyundai I10, drzwi: 5, cena: 52000
+
+Marki samochodów droższych niż 200000zł:
+Porsche
+Tesla
+Renault
+Tesla
+Tesla
+Porsche
+Tesla
+Porsche
+
+J.w. posortowane, bez powtórzeń
+Porsche
+Renault
+Tesla
+
+Strumienie się łatwo zrównolegla
+65,66,67,63,64,62,71,72,73,74,69,70,68,57,58,56,82,83,81,86,87,84,85,
+
+Wynik to -223
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

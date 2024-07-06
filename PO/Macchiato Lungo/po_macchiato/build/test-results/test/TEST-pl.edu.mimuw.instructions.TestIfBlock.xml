@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.mimuw.instructions.TestIfBlock" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-14T20:10:38" hostname="MacBook-Pro-Ometek.local" time="0.002">
+  <properties/>
+  <testcase name="[1] TestData[expression1=0, expression2=1, expectedValue=1]" classname="pl.edu.mimuw.instructions.TestIfBlock" time="0.001"/>
+  <testcase name="[2] TestData[expression1=2137, expression2=(69 • 31), expectedValue=2139]" classname="pl.edu.mimuw.instructions.TestIfBlock" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
