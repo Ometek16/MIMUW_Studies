@@ -1,0 +1,25 @@
+#!/bin/bash
+
+wie="3"
+kol="3"
+
+#rm generuj_tablice
+#rm losuj_parametry
+gcc generuj_easy.c -o generuj_easy
+gcc -DWIERSZE=$wie -DKOLUMNY=$kol GraWZycie.c -o run
+
+root="Easy"
+
+maxtest=511
+
+for (( i=0; i<=$maxtest; i++ ))
+do
+    echo "$i" > tmp.in
+    test_in="test_${wie}_${kol}_${i}.in"
+    test_out="test_${wie}_${kol}_${i}.out"
+    echo $test_in
+
+    ./generuj_easy < tmp.in > $root/in/$test_in
+
+    ./run < $root/in/$test_in > $root/out/$test_out
+done

@@ -1,0 +1,62 @@
+#!/bin/bash
+
+wie="8"
+kol="8"
+
+#rm generuj_tablice
+#rm losuj_parametry
+gcc -DWIERSZE=$wie -DKOLUMNY=$kol generuj_tablice.c -o generuj_tablice
+gcc -DWIERSZE=$wie -DKOLUMNY=$kol losuj_parametry.c  -o losuj_parametry
+gcc -DWIERSZE=$wie -DKOLUMNY=$kol zadanie2.c -o zadanie2
+
+root="Testy"
+folder="Testy_${wie}_${kol}"
+
+maxtest=25
+
+for (( i=0; i<$maxtest; i++ ))
+do
+    echo "$i" > tmp.in
+    test_in="test_${wie}_${kol}_${i}.in"
+    test_param_1="test_${wie}_${kol}_${i}_1.in"
+    test_param_2="test_${wie}_${kol}_${i}_2.in"
+    test_out="test_${wie}_${kol}_${i}.out"
+    echo $test_in
+
+    ./generuj_tablice < tmp.in > $root/$folder/in/$test_in
+    ./losuj_parametry < tmp.in > tmp.out
+
+    var=`cat tmp.out`
+    stringarray=($var)
+    echo ${stringarray[0]} > $root/$folder/param/$test_param_1 
+    echo ${stringarray[1]} > $root/$folder/param/$test_param_2
+
+    ./zadanie2 ${stringarray[0]} ${stringarray[1]} < $root/$folder/in/$test_in > $root/$folder/out/$test_out
+done
+
+for (( r=1; r<=39; r++))
+do
+    for (( i=0; i<$maxtest; i++ ))
+    do
+        curr_id=`expr $i + $maxtest \* $r`
+        pop_id=`expr $i + $maxtest \* $r - $maxtest`
+        #echo $curr_id $pop_id
+        test_in_in="test_${wie}_${kol}_${curr_id}.in"
+        test_in_out="test_${wie}_${kol}_${pop_id}.out"
+        test_param_1="test_${wie}_${kol}_${curr_id}_1.in"
+        test_param_2="test_${wie}_${kol}_${curr_id}_2.in"
+        test_out="test_${wie}_${kol}_${curr_id}.out"
+        cat $root/$folder/out/$test_in_out > $root/$folder/in/$test_in_in
+        echo $test_in_in
+
+        echo "$curr_id" > tmp.in
+        ./losuj_parametry < tmp.in > tmp.out
+
+        var=`cat tmp.out`
+        stringarray=($var)
+        echo ${stringarray[0]} > $root/$folder/param/$test_param_1 
+        echo ${stringarray[1]} > $root/$folder/param/$test_param_2
+
+        ./zadanie2 ${stringarray[0]} ${stringarray[1]}  < $root/$folder/in/$test_in_in > $root/$folder/out/$test_out
+    done
+done

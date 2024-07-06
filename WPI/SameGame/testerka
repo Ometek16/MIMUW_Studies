@@ -1,0 +1,34 @@
+#!/bin/bash
+
+wie="20"
+kol="20"
+
+gcc -DWIERSZE=$wie -DKOLUMNY=$kol zadanie2.c -o zadanie2
+
+root="Testy"
+folder="Testy_${wie}_${kol}"
+
+maxtest=1000
+
+for (( i=0; i<$maxtest; i++ ))
+do
+    test_in="test_${wie}_${kol}_${i}.in"
+    test_param_1="test_${wie}_${kol}_${i}_1.in"
+    test_param_2="test_${wie}_${kol}_${i}_2.in"
+    test_out="test_${wie}_${kol}_${i}.out"
+
+    var1=`cat $root/$folder/param/$test_param_1`
+    var2=`cat $root/$folder/param/$test_param_2`
+
+    ./zadanie2 $var1 $var2 < $root/$folder/in/$test_in > tmp.out
+
+    if (diff tmp.out $root/$folder/out/$test_out > /dev/null)
+        then
+            echo "OK: $i"
+        else
+            echo "Sadge: $i"
+            echo "$test_in"
+            cat $root/$folder/param/$test_param_1 $root/$folder/param/$test_param_2
+            exit
+    fi
+done

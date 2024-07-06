@@ -1,0 +1,27 @@
+#!/bin/bash
+
+wie="3"
+kol="3"
+
+gcc -DWIERSZE=$wie -DKOLUMNY=$kol main.c -o run
+
+root="Easy"
+
+maxtest=511
+
+for (( i=0; i<=$maxtest; i++ ))
+do
+    test_in="test_${wie}_${kol}_${i}.in"
+    test_out="test_${wie}_${kol}_${i}.out"
+
+    cat ./run $root/in/$test_in | valgrind --leak-check=full -q --error-exitcode=1 ./run > tmp.out
+
+    if (diff tmp.out $root/out/$test_out > /dev/null)
+        then
+            echo "OK: $i"
+        else
+            echo "Sadge: $i"
+            echo "$test_in"
+            exit
+    fi
+done
