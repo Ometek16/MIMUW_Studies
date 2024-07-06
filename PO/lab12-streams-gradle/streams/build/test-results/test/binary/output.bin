@@ -1,326 +1,0 @@
-
-Za pierwszym razem działa:
-Porsche
-Tesla
-Renault
-Tesla
-Tesla
-Porsche
-Tesla
-Porsche
-
-Za drugim już nie...
-
-*Ale bym nie przesadzał z tym 'łatwo'...
-1000000
-
-!A nawet jeszcze bardziej LENIWE:
-TERAZ:
-.Filtruję Toyota Yaris, drzwi: 5, cena: 76900
-.Filtruję Renault Clio, drzwi: 5, cena: 71900
-2Filtruję Porsche Cayenne, drzwi: 5, cena: 428000
-Porsche
-;Dlatego nie 'printujemy' w trakcie przerabiania strumieni!
-
-0Zrównoleglony strumień nie traci kolejności!
-4,104
-14,114
-12,112
-11,111
-9,109
-13,113
-1,101
-2,102
-8,108
-0,100
-20,120
-6,106
-19,119
-5,105
-30,130
-7,107
-22,122
-10,110
-24,124
-23,123
-18,118
-28,128
-25,125
-17,117
-3,103
-15,115
-16,116
-26,126
-21,121
-29,129
-27,127
-	A TERAZ:
-.Filtruję Toyota Yaris, drzwi: 5, cena: 76900
-.Filtruję Renault Clio, drzwi: 5, cena: 71900
-2Filtruję Porsche Cayenne, drzwi: 5, cena: 428000
-Porsche
-0Filtruję Tesla Model Y, drzwi: 5, cena: 229990
-Tesla
-2Filtruję Renault Traffic, drzwi: 6, cena: 210150
-Renault
-0Filtruję Tesla Model 3, drzwi: 5, cena: 219990
-Tesla
-0Filtruję Tesla Model X, drzwi: 5, cena: 592990
-Tesla
-1Filtruję Renault Kangoo, drzwi: 5, cena: 100737
-1Filtruję Porsche Taycan, drzwi: 5, cena: 448000
-Porsche
-0Filtruję Tesla Model S, drzwi: 5, cena: 553990
-Tesla
--Filtruję Toyota Aygo, drzwi: 3, cena: 63900
-1Filtruję Toyota Corolla, drzwi: 4, cena: 116900
-1Filtruję Hyundai Tucson, drzwi: 5, cena: 127400
-5Filtruję Porsche 911 Turbo, drzwi: 5, cena: 1084000
-Porsche
--Filtruję Hyundai I10, drzwi: 5, cena: 52000
-
--Marki samochodów droższych niż 200000zł:
-Porsche
-Tesla
-Renault
-Tesla
-Tesla
-Porsche
-Tesla
-Porsche
-
-"J.w. posortowane, bez powtórzeń
-Porsche
-Renault
-Tesla
-	
-	$Strumienie się łatwo zrównolegla
-	F65,66,67,63,64,62,71,72,73,74,69,70,68,57,58,56,82,83,81,86,87,84,85,
-	
-	Wynik to -223
-==============
-Renault
--------
-$Renault Clio, drzwi: 5, cena: 71900
-(Renault Traffic, drzwi: 6, cena: 210150
-'Renault Kangoo, drzwi: 5, cena: 100737
-==============
-Toyota
--------
-$Toyota Yaris, drzwi: 5, cena: 76900
-#Toyota Aygo, drzwi: 3, cena: 63900
-'Toyota Corolla, drzwi: 4, cena: 116900
-==============
-Tesla
--------
-&Tesla Model Y, drzwi: 5, cena: 229990
-&Tesla Model 3, drzwi: 5, cena: 219990
-&Tesla Model X, drzwi: 5, cena: 592990
-&Tesla Model S, drzwi: 5, cena: 553990
-==============
-Porsche
--------
-(Porsche Cayenne, drzwi: 5, cena: 428000
-'Porsche Taycan, drzwi: 5, cena: 448000
-+Porsche 911 Turbo, drzwi: 5, cena: 1084000
-==============
-Hyundai
--------
-'Hyundai Tucson, drzwi: 5, cena: 127400
-#Hyundai I10, drzwi: 5, cena: 52000
-Renault: 382787
-Toyota: 257700
-Tesla: 1596960
-Porsche: 1960000
-Hyundai: 179400
-Renault
-3  najtańsszy: Renault Clio, drzwi: 5, cena: 71900
-7  najdroższy: Renault Traffic, drzwi: 6, cena: 210150
-Toyota
-2  najtańsszy: Toyota Aygo, drzwi: 3, cena: 63900
-6  najdroższy: Toyota Corolla, drzwi: 4, cena: 116900
-Tesla
-5  najtańsszy: Tesla Model 3, drzwi: 5, cena: 219990
-5  najdroższy: Tesla Model X, drzwi: 5, cena: 592990
-Porsche
-7  najtańsszy: Porsche Cayenne, drzwi: 5, cena: 428000
-:  najdroższy: Porsche 911 Turbo, drzwi: 5, cena: 1084000
-Hyundai
-2  najtańsszy: Hyundai I10, drzwi: 5, cena: 52000
-6  najdroższy: Hyundai Tucson, drzwi: 5, cena: 127400
-Toyota Corolla: 116900
-Tesla Model X: 592990
-Tesla Model Y: 229990
-Renault Clio: 71900
-Renault Kangoo: 100737
-Tesla Model 3: 219990
-Tesla Model S: 553990
-Porsche Taycan: 448000
-Porsche 911 Turbo: 1084000
-Porsche Cayenne: 428000
-Hyundai Tucson: 127400
-Hyundai I10: 52000
-Toyota Yaris: 76900
-Toyota Aygo: 63900
-Renault Traffic: 210150
-Przykładowe ceny :)
-===================
-Renault: 71900
-Toyota: 76900
-Tesla: 229990
-Porsche: 428000
-Hyundai: 127400
-Demo!
-012345678910 12
-Wolne!
-2288895
-
-Czas: 321
-
-!Szybkie 1: collect StringBuilder
-2288895
-	Czas: 30
-
-&Szybkie 1: collect Collectors.joining
-2288895
-	Czas: 16
-55
-Sekwencyjnie:
-K(((((((((1 ⊙ 2) ⊙ 3) ⊙ 4) ⊙ 5) ⊙ 6) ⊙ 7) ⊙ 8) ⊙ 9) ⊙ 10)
-Równolegle:
-K(((1 ⊙ 2) ⊙ (3 ⊙ (4 ⊙ 5))) ⊙ ((6 ⊙ 7) ⊙ (8 ⊙ (9 ⊙ 10))))
--Uwaga! Te operacje na strumieniach stringów
-8są teoretycznie nieprawidłowe, bo takie 'nawiasowane'
-@łączenie napisów nie jest łączne! Ale kto nam zabroni ? :)
-55
-Sekwencyjnie:
-S((((((((((o ⊙ 1) ⊙ 2) ⊙ 3) ⊙ 4) ⊙ 5) ⊙ 6) ⊙ 7) ⊙ 8) ⊙ 9) ⊙ 10)
-Równolegle:
-�((((o ⊙ 1) ⊙ (o ⊙ 2)) ⊙ ((o ⊙ 3) ⊙ ((o ⊙ 4) ⊙ (o ⊙ 5)))) ⊙ (((o ⊙ 6) ⊙ (o ⊙ 7)) ⊙ ((o ⊙ 8) ⊙ ((o ⊙ 9) ⊙ (o ⊙ 10)))))
-15
-Sekwencyjnie:
-�(((((((((((((((o · s₁) · s₂) · s₃) · s₄) · s₅) · s₆) · s₇) · s₈) · s₉) · s₁₀) · s₁₁) · s₁₂) · s₁₃) · s₁₄) · s₁₅)
-Równolegle:
-�((((o · s₁) ⊙ ((o · s₂) ⊙ (o · s₃))) ⊙ (((o · s₄) ⊙ (o · s₅)) ⊙ ((o · s₆) ⊙ (o · s₇)))) ⊙ ((((o · s₈) ⊙ (o · s₉)) ⊙ ((o · s₁₀) ⊙ (o · s₁₁))) ⊙ (((o · s₁₂) ⊙ (o · s₁₃)) ⊙ ((o · s₁₄) ⊙ (o · s₁₅)))))
-Wersja rozpisana: 
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
-Wersja z referencjami metod: 
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-A teraz po kolei...
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
-Nowa zlewka: []
-Dolewanie: [] ← 1  ⟹  [1]
-"Dolewanie: [1] ← 2  ⟹  [1, 2]
-(Dolewanie: [1, 2] ← 3  ⟹  [1, 2, 3]
-.Dolewanie: [1, 2, 3] ← 4  ⟹  [1, 2, 3, 4]
-4Dolewanie: [1, 2, 3, 4] ← 5  ⟹  [1, 2, 3, 4, 5]
-:Dolewanie: [1, 2, 3, 4, 5] ← 6  ⟹  [1, 2, 3, 4, 5, 6]
-@Dolewanie: [1, 2, 3, 4, 5, 6] ← 7  ⟹  [1, 2, 3, 4, 5, 6, 7]
-FDolewanie: [1, 2, 3, 4, 5, 6, 7] ← 8  ⟹  [1, 2, 3, 4, 5, 6, 7, 8]
-LDolewanie: [1, 2, 3, 4, 5, 6, 7, 8] ← 9  ⟹  [1, 2, 3, 4, 5, 6, 7, 8, 9]
-Finał:
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-Jeszcze raz, zrównoleglone...
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
-Nowa zlewka: []
-40,41,42,Nowa zlewka: []
-15,59,Nowa zlewka: []
-O7,8,6,10,11,9,21,22,23,24,19,20,13,14,12,16,17,97,98,99,100,94,Nowa zlewka: []
-744,45,43,48,49,46,47,28,29,30,26,27,25,Nowa zlewka: []
-32,33,Nowa zlewka: []
-:3,4,5,1,2,0,18,34,31,53,54,55,51,52,50,75,Nowa zlewka: []
-Dolewanie: [] ← 8  ⟹  [8]
-Dolewanie: [] ← 4  ⟹  [4]
-Dolewanie: [] ← 5  ⟹  [5]
-37,Nowa zlewka: []
-Dolewanie: [] ← 9  ⟹  [9]
-.35,36,91,92,93,89,90,88,95,96,Nowa zlewka: []
-Dolewanie: [] ← 3  ⟹  [3]
-Dolewanie: [] ← 1  ⟹  [1]
-Dolewanie: [] ← 6  ⟹  [6]
-$Zlewanie:  [5] ← [6]  ⟹  [5, 6]
-$Zlewanie:  [3] ← [4]  ⟹  [3, 4]
-$Zlewanie:  [8] ← [9]  ⟹  [8, 9]
-Dolewanie: [] ← 7  ⟹  [7]
-Dolewanie: [] ← 2  ⟹  [2]
-*Zlewanie:  [7] ← [8, 9]  ⟹  [7, 8, 9]
-$Zlewanie:  [1] ← [2]  ⟹  [1, 2]
-0Zlewanie:  [1, 2] ← [3, 4]  ⟹  [1, 2, 3, 4]
-6Zlewanie:  [5, 6] ← [7, 8, 9]  ⟹  [5, 6, 7, 8, 9]
-NZlewanie:  [1, 2, 3, 4] ← [5, 6, 7, 8, 9]  ⟹  [1, 2, 3, 4, 5, 6, 7, 8, 9]
-Finał:
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
-1
-4
-9
-16
-25
-36
-49
-64
-81
-100
-121
-144
-169
-196
-225
-256
-289
-324
-361
-400
-441
-484
-529
-576
-625
-676
-729
-784
-841
-900
-961
-!144
-!233
-!377
-!610
-!987
-!1597
-!2584
-!4181
-!6765
-!10946
-"2
-"4
-"8
-"16
-"32
-"64
-"128
-"256
-"512
-"1024
-"2048
-"4096
-"8192
-"16384
-"32768
-"65536
-"131072
-"262144
-"524288
-"1048576
-#1331
-#1728
-#2197
-#2744
-#3375
-#4096
-#4913
-#5832
-#6859
-#8000
-#9261
