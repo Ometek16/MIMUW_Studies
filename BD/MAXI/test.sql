@@ -1,0 +1,2 @@
+SELECT src, tgt, ROW_NUMBER() OVER (PARTITION BY src ORDER BY tgt) AS rn
+FROM e
