@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						5
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "to_c_io",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "err::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-err-Debug-3f8c07dc821e696044c9.json",
+					"name" : "err",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "executor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-executor-Debug-8339914b2e45a508c8e1.json",
+					"name" : "executor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "executor_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-executor_test-Debug-d091cd58dcf96572b042.json",
+					"name" : "executor_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "future::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-future-Debug-aac90a1cce61e1330f5d.json",
+					"name" : "future",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hard_work_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-hard_work_test-Debug-0cf9e3cc0dd4a772ab2f.json",
+					"name" : "hard_work_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mio-Debug-494b2b274fa187f23aa0.json",
+					"name" : "mio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mio_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-mio_test-Debug-0e227515cc12907fcb9c.json",
+					"name" : "mio_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_utils::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_utils-Debug-c5433ec6b3a8abf0210c.json",
+					"name" : "test_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "then_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-then_test-Debug-1fd69053fbcb66d5d240.json",
+					"name" : "then_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build",
+		"source" : "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

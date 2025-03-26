@@ -1,0 +1,10 @@
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/mutual-excl.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/atomic-volatile.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/lockfree-stack.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/dekker.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/edit_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/rebuild_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/list_install_components.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/install.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/install/local.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab10/build/CMakeFiles/install/strip.dir

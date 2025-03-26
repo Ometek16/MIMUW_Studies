@@ -1,0 +1,7 @@
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab12/CMakeFiles/err.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab12/CMakeFiles/simple_handler.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab12/CMakeFiles/signal_mask.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab12/CMakeFiles/more_info.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab12/CMakeFiles/terminator.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab12/CMakeFiles/edit_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/wspolbiegi/src/lab12/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/err.dir/src/err.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/err.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/err.c",
+  "output": "CMakeFiles/err.dir/src/err.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/mio.dir/src/mio.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/mio.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/mio.c",
+  "output": "CMakeFiles/mio.dir/src/mio.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/future.dir/src/future_combinators.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/future_combinators.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/future_combinators.c",
+  "output": "CMakeFiles/future.dir/src/future_combinators.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/future.dir/src/future_examples.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/future_examples.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/future_examples.c",
+  "output": "CMakeFiles/future.dir/src/future_examples.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/executor.dir/src/executor.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/executor.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src/executor.c",
+  "output": "CMakeFiles/executor.dir/src/executor.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build/tests",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/test_utils.dir/utils.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/utils.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/utils.c",
+  "output": "tests/CMakeFiles/test_utils.dir/utils.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build/tests",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/executor_test.dir/executor_test.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/executor_test.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/executor_test.c",
+  "output": "tests/CMakeFiles/executor_test.dir/executor_test.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build/tests",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/hard_work_test.dir/hard_work_test.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/hard_work_test.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/hard_work_test.c",
+  "output": "tests/CMakeFiles/hard_work_test.dir/hard_work_test.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build/tests",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/mio_test.dir/mio_test.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/mio_test.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/mio_test.c",
+  "output": "tests/CMakeFiles/mio_test.dir/mio_test.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/build/tests",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/include -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/src -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wuninitialized -Wmissing-field-initializers -fsanitize=address -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -o CMakeFiles/then_test.dir/then_test.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/then_test.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_3/ko448420/tests/then_test.c",
+  "output": "tests/CMakeFiles/then_test.dir/then_test.c.o"
+}
+]

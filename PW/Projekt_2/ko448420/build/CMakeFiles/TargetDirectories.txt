@@ -1,0 +1,15 @@
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/CMakeFiles/edit_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/CMakeFiles/rebuild_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/common/CMakeFiles/err.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/common/CMakeFiles/io.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/common/CMakeFiles/edit_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/common/CMakeFiles/rebuild_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/reference/CMakeFiles/reference.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/reference/CMakeFiles/edit_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/reference/CMakeFiles/rebuild_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/nonrecursive/CMakeFiles/nonrecursive.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/nonrecursive/CMakeFiles/edit_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/nonrecursive/CMakeFiles/rebuild_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/parallel/CMakeFiles/parallel.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/parallel/CMakeFiles/edit_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/parallel/CMakeFiles/rebuild_cache.dir

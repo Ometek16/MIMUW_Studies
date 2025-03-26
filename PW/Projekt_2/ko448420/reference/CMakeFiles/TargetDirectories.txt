@@ -1,0 +1,3 @@
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/reference/CMakeFiles/reference.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/reference/CMakeFiles/edit_cache.dir
+/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/reference/CMakeFiles/rebuild_cache.dir

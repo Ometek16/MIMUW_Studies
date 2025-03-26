@@ -1,0 +1,1 @@
+/usr/bin/clang -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -pthread CMakeFiles/parallel.dir/main.c.o -o parallel  ../common/libio.a ../common/liberr.a -latomic

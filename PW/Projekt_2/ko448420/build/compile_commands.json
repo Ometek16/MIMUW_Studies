@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/common",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420 -g -std=gnu17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-uninitialized -Wno-unused-function -Werror -pthread -o CMakeFiles/err.dir/err.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/common/err.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/common/err.c",
+  "output": "common/CMakeFiles/err.dir/err.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/common",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420 -g -std=gnu17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-uninitialized -Wno-unused-function -Werror -pthread -o CMakeFiles/io.dir/io.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/common/io.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/common/io.c",
+  "output": "common/CMakeFiles/io.dir/io.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/reference",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420 -g -std=gnu17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-uninitialized -Wno-unused-function -Werror -pthread -o CMakeFiles/reference.dir/main.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/reference/main.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/reference/main.c",
+  "output": "reference/CMakeFiles/reference.dir/main.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/nonrecursive",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420 -g -std=gnu17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-uninitialized -Wno-unused-function -Werror -pthread -o CMakeFiles/nonrecursive.dir/main.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/nonrecursive/main.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/nonrecursive/main.c",
+  "output": "nonrecursive/CMakeFiles/nonrecursive.dir/main.c.o"
+},
+{
+  "directory": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/build/parallel",
+  "command": "/usr/bin/clang  -I/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420 -g -std=gnu17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-uninitialized -Wno-unused-function -Werror -pthread -o CMakeFiles/parallel.dir/main.c.o -c /Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/parallel/main.c",
+  "file": "/Users/kubaornatek/Documents/Studies/UW_3/PW/Projekt_2/ko448420/parallel/main.c",
+  "output": "parallel/CMakeFiles/parallel.dir/main.c.o"
+}
+]
